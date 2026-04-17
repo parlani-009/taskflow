@@ -44,8 +44,8 @@ TaskFlow is a project and task management system with a Kanban-style board. User
 **Prerequisites:** Docker and Docker Compose installed.
 
 ```bash
-git clone https://github.com/rishabhsharma-go/Greening-India-Assingment.git
-cd Greening-India-Assingment
+git clone https://github.com/parlani-009/taskflow
+cd taskflow
 
 # Copy environment files
 cp backend/.env.example backend/.env
@@ -150,7 +150,7 @@ Currently tasks can only be dragged between columns within one project. Cross-pr
 With more time I'd break the frontend into smaller components, add proper error boundaries, and consider a light state management solution. The current monolithic components work but aren't as maintainable.
 
 **5. Add a proper data validation layer**
-I relied heavily on AI to accelerate the initial implementation, which was a pragmatic tradeoff given startup time pressure. With more time I'd do a thorough review of edge cases, add comprehensive input validation, and ensure all error states are handled gracefully.
+I relied heavily on AI to accelerate the initial implementation, which was a pragmatic tradeoff given my current company is a startup. With more time I'd do a thorough review of edge cases, add comprehensive input validation, and ensure all error states are handled gracefully.
 
 **6. Use Django instead of FastAPI**
 For a task management app with complex relationships and multiple developers, Django's built-in admin, ORM patterns, and extensive ecosystem would reduce boilerplate and improve maintainability. FastAPI was chosen for its async performance, but Django is a better fit for this domain.
